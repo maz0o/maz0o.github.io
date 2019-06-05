@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trophies</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+    <script src="progressbar.js"></script>
+    <script src="newProgressBar.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="loading-bar.css" />
+    <script type="text/javascript" src="loading-bar.js"></script>
+
+
+</head>
+
+<body>
+    <main>
+
+
+        <span>
+            <h2>TROPHIES</h2>
+
+
+            <span>
+                <img id="trophy" src="trophy.png" alt="trophy logo">
+            </span>
+        </span>
+
+
+     <!--    <div class="ldBar" data-value="50"> </div> -->
+
+     
+
+
+        <div id="container">
+
+            <span class="third circle">
+                <span style="color: rgb(146, 146, 146)"><br> Level 2 </span>
+            </span>
+
+            <div class="forth circle">
+                <span style="color: rgb(146, 146, 146)"> <br> Teamplayer <br> </span>
+            </div>
+
+
+        <!--     <div
+            data-preset="line"
+            class="ldBar label-center"
+            data-value="35"
+          ></div> -->
+
+          <div id="myItem1"></div>
+          <script>
+            var bar1 = new ldBar("#myItem1");
+            var bar2 = document.getElementById('myItem1').ldBar;
+            bar1.set(60);
+          </script>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://rawgit.com/kottenator/jquery-circle-progress/1.2.2/dist/circle-progress.js"></script>
+        <script src="examples.js"></script>
+    </main>
+</body>
+
+</html>
